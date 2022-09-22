@@ -1,0 +1,12 @@
+.linkContainer{
+    display: flex;
+    
+}
+.upperHeaderLink{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.imgFacebook{
+    color:white;
+}
