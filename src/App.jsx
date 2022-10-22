@@ -7,7 +7,7 @@ import UpperTopHeader from "./Layouts/Header/UpperTopHeader";
 function App() {
   return (
     <>
-      <UpperTopHeader />
+      {/* <UpperTopHeader /> */}
       <TopHeader />
       <MyCarousel />
       <InstructorCard />

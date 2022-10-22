@@ -6,9 +6,9 @@ import "./UpperTopHeader.css";
 
 const UpperTopHeader = () => {
   return (
-    <div>
+    <div className="UpperTopHeader">
       <>
-        <Navbar className="my-0" color="dark" dark>
+        <Navbar fixed="top" className="my-0" color="dark" dark>
           <NavbarBrand href="mailto:harishk001998@gmail.com">
             Email Us
           </NavbarBrand>

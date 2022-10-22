@@ -18,7 +18,7 @@ const TopHeader = (props) => {
   const toggleNavbar = () => setCollapsed(!collapsed);
   return (
     <div>
-      <Navbar color="transparent" light>
+      <Navbar fixed="top" color="white" light>
         <NavbarBrand href="/" className="me-auto">
           <img
             src={MyLogo}
@@ -29,12 +29,24 @@ const TopHeader = (props) => {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/components/">About Us</NavLink>
+              <NavLink href="/components/">Enquiry Form</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">
-                Contact Us
+                About Us
               </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/components/">Dance Styles</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/components/">Team</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/components/">Social Accounts</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/components/">Contact Details</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
